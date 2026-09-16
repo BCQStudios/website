@@ -1,11 +1,37 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+	<main class="mx-auto flex min-h-screen max-w-lg flex-col justify-center px-6 py-20">
+		<p class="text-sm text-muted-foreground">BCQStudios</p>
+		<h1 class="mt-6 text-3xl font-bold tracking-tight">We prototype software.</h1>
+		<p class="mt-4 leading-relaxed text-muted-foreground">
+			A studio for teams that need something working before they commit to a larger build. Interfaces,
+			services, and the first version you can put in front of people.
+		</p>
+		<ul class="mt-10 space-y-4 text-sm text-muted-foreground">
+			<li>
+				<span class="text-foreground">Prototype</span>
+				{' '}— a product you can click through, not a deck.
+			</li>
+			<li>
+				<span class="text-foreground">Systems</span>
+				{' '}— the APIs and data the prototype stands on.
+			</li>
+			<li>
+				<span class="text-foreground">Handoff</span>
+				{' '}— a clear next step, whether we stay or you take it in-house.
+			</li>
+		</ul>
+		<p class="mt-12 text-sm text-muted-foreground/60">
+			Start a conversation at{' '}
+			<a
+				href="mailto:questions@bcqstudios.com"
+				class="text-foreground underline underline-offset-4 hover:no-underline"
+			>
+				questions@bcqstudios.com
+			</a>
+		</p>
+	</main>
 </Layout>

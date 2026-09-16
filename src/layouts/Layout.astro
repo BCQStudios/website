@@ -6,12 +6,14 @@ interface Props {
 	description?: string;
 }
 
-const { title = 'BCQStudios', description = 'BCQStudios prototypes software for teams that need a working product before they scale it.' } =
-	Astro.props;
+const {
+	title = 'BCQStudios',
+	description = 'BCQStudios prototypes software for teams that need a working product before they scale it.',
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,14 +23,13 @@ const { title = 'BCQStudios', description = 'BCQStudios prototypes software for 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap"
 			rel="stylesheet"
 		/>
 		<meta name="description" content={description} />
-		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="min-h-screen bg-background font-sans antialiased">
+	<body>
 		<slot />
 	</body>
 </html>

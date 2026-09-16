@@ -11,18 +11,21 @@ import Layout from '../layouts/Layout.astro';
 			A studio for teams that need something working before they commit to a larger build. Interfaces,
 			services, and the first version you can put in front of people.
 		</p>
-		<ul class="mt-10 space-y-4 text-sm text-muted-foreground">
-			<li>
+		<ul class="mt-10 grid grid-cols-[auto_auto_1fr] gap-x-3 gap-y-4 text-sm">
+			<li class="col-span-3 grid grid-cols-subgrid">
 				<span class="text-foreground">Prototype</span>
-				{' '}— a product you can click through, not a deck.
+				<span class="text-muted-foreground/40" aria-hidden="true">/</span>
+				<span class="text-muted-foreground">a product you can click through, not a deck.</span>
 			</li>
-			<li>
+			<li class="col-span-3 grid grid-cols-subgrid">
 				<span class="text-foreground">Systems</span>
-				{' '}— the APIs and data the prototype stands on.
+				<span class="text-muted-foreground/40" aria-hidden="true">/</span>
+				<span class="text-muted-foreground">the APIs and data the prototype stands on.</span>
 			</li>
-			<li>
+			<li class="col-span-3 grid grid-cols-subgrid">
 				<span class="text-foreground">Handoff</span>
-				{' '}— a clear next step, whether we stay or you take it in-house.
+				<span class="text-muted-foreground/40" aria-hidden="true">/</span>
+				<span class="text-muted-foreground">a clear next step, with us or in-house.</span>
 			</li>
 		</ul>
 		<p class="mt-12 text-sm text-muted-foreground/60">

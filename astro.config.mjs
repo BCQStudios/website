@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-	site: 'https://bcqstudios.com',
+	site: 'https://www.bcqstudios.com',
 	integrations: [sitemap()],
 	vite: {
 		plugins: [tailwindcss()],

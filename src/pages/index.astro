@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<main class="mx-auto flex min-h-screen max-w-lg flex-col justify-center px-6 py-20">
+	<main class="mx-auto flex max-w-lg grow flex-col justify-center px-6 py-20">
 		<img src="/logo.svg" alt="" width="96" height="96" class="h-24 w-24" />
 		<h1 class="mt-6 text-3xl font-bold tracking-tight">We prototype software.</h1>
 		<p class="mt-4 leading-relaxed text-muted-foreground">
@@ -44,13 +44,10 @@ import Layout from '../layouts/Layout.astro';
 			</a>
 		</section>
 		<p class="mt-12 text-sm text-muted-foreground/60">
-			Start a conversation at{' '}
-			<a
+			Start a conversation at <a
 				href="mailto:questions@bcqstudios.com"
 				class="text-foreground underline underline-offset-4 hover:no-underline"
-			>
-				questions@bcqstudios.com
-			</a>
+			>questions@bcqstudios.com</a>
 		</p>
 	</main>
 </Layout>

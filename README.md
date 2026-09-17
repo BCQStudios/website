@@ -1,6 +1,6 @@
 # BCQStudios
 
-Studio site for BCQStudios, a software prototyping practice.
+Studio site for BCQStudios.
 
 ## Commands
 

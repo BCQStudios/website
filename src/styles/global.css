@@ -18,17 +18,5 @@ body {
 	min-height: 100dvh;
 	flex-direction: column;
 	font-family: var(--font-sans);
-	font-optical-sizing: auto;
-	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-}
-
-::selection {
-	background: var(--color-foreground);
-	color: var(--color-background);
-}
-
-:focus-visible {
-	outline: 2px solid var(--color-foreground);
-	outline-offset: 3px;
 }

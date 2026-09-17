@@ -1,13 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
 	<rect width="256" height="256" rx="56" fill="#111111" />
-	<g
-		stroke="#f0f0f0"
-		stroke-width="24"
-		stroke-linejoin="miter"
-		stroke-miterlimit="3"
-		stroke-linecap="butt"
-		fill="none"
-	>
+	<g stroke="#f0f0f0" stroke-width="24" stroke-miterlimit="3" fill="none">
 		<path d="M197.282 109V88L128 48 58.718 88v80L128 208l69.282-40V147" />
 		<path d="M58.718 128h118.564" />
 		<path d="M197.282 168l25.981 15" />

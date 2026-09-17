@@ -1,13 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="logoTitle">
-	<title id="logoTitle">BCQStudios</title>
-	<g
-		stroke="#f0f0f0"
-		stroke-width="24"
-		stroke-linejoin="miter"
-		stroke-miterlimit="3"
-		stroke-linecap="butt"
-		fill="none"
-	>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+	<g stroke="#f0f0f0" stroke-width="24" stroke-miterlimit="3">
 		<path d="M197.282 109V88L128 48 58.718 88v80L128 208l69.282-40V147" />
 		<path d="M58.718 128h118.564" />
 		<path d="M197.282 168l25.981 15" />
